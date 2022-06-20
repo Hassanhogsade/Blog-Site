@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <script src="index.js">
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+
+<body>
+    <!--created 2 buttons for light and dark themes with the function to change background and text color-->
+    <button onclick="clickMe()">Light Theme</button>
+    <button onclick="clickMee()">Dark Theme</button>
+    <hr>
+    <!--this div was created for the navigation panel and will use css to change the apprearance, this also creates the nav option-->
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="contact.html">Contact</a>
+
+    </div>
+    <!--here below i made the text areas for the subject and body of the email, i linked the button to a function when u 
+    click it and save it -->
+    <label for="subject">Subject:</label> <br>
+    <textarea id="subject" name="subject" rows="1" cols="50"></textarea><br>
+    <label for="body">Body:</label> <br>
+    <textarea id="body" name="body" rows="7" cols="70"></textarea><br>
+    <button onClick="mailToLink()">Save</button><br>
+    <a id="mailToLink" href="">Send Email</a>
+
+</body>
+
+
+
+</html>

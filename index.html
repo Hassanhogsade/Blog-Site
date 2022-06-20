@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script src="index.js">
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <title></title>
+</head>
+
+<body>
+
+  <button onclick="clickMe()">Light Theme</button>
+  <button onclick="clickMee()">Dark Theme</button>
+  <hr>
+  <!--this part below is for our navigation panel which is linked to both parts of the pages i have created.-->
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+
+  </div>
+
+  <!--this below will create the text areas for our page for user to fill in title author and text, when clicking submit
+  this will link to the submit function in js and will have a set of rules and commands-->
+  <label for="blogTitle">Blog Title:</label> <br>
+  <textarea id="blogTitle" name="blogTitle" rows="1" cols="50"></textarea><br>
+  <label for="blogAuthor">Blog Author:</label> <br>
+  <textarea id="blogAuthor" name="blogAuthor" rows="1" cols="50"></textarea><br>
+  <label for="blogText">Blog Text:</label> <br>
+  <textarea id="blogText" name="blogText" rows="7" cols="70"></textarea><br>
+  <button onClick="submit()">Post</button>
+  <!--here below i already hardcoded a part of my own vlog which will be on the body everytime when the page loads-->
+  <h1>Lions getting Extinct</h1>
+  <h3>Hassan Hogsade</h3>
+  <p>Why are lions getting hunted?
+    There is a growing threat to lions in certain parts of Africa from the targeted poaching of lions for their body
+    parts, such as skins, claws, teeth and bones. The drivers of such poaching and trade are currently poorly
+    understood; however there is a clear and growing Asian market for these products. Ceremonial killing.</p>
+  <hr>
+
+
+</body>
+
+
+
+</html>
